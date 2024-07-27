@@ -1,0 +1,84 @@
+.header{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    padding: 13px 7px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.nav-items >ul >li {
+    padding: 10px;
+    margin: 15px;
+    
+}
+.res-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.res-card {
+    width: 220px;
+    height: 340px;
+    padding: 5px;
+    margin: 10px;
+}
+.res-card:hover {
+    box-shadow: 3px 3px 8px gray;
+    cursor: pointer;
+    border: 2px solid black;
+}
+.filter-btn {
+    margin-top: 7px;
+    margin-bottom: -4px;
+    margin-left: 10px;
+    cursor: pointer;
+    
+}
+.heading {
+    padding-left: 65px;
+    margin-top: 0%;
+    text-shadow: 1px 1px green;
+}
+.res-logo {
+    width: 220px;
+    height: 190px;
+    box-shadow: 10px green;
+}
+.location1 {
+    font-size: xx-small;
+    margin-top: -10px;
+    padding-left: 0px;
+    font-style: oblique;
+    color: rgb(105, 100, 100);
+    font-weight: bold;
+}
+.rating1 {
+    font-size: xx-small;
+    margin-top: -5px;
+    background-color: green;
+    width: 45px;
+}
+.timing1 {
+    font-size: xx-small;
+    margin-top: -5px;
+}
+.body {
+
+    box-sizing: border-box;
+
+}
